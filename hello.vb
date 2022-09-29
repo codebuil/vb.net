@@ -3,7 +3,7 @@ Module Program
     Sub Main()
 
         'Displays Hello, World
-        Console.WriteLine("  \x1bc\x1b[42;30m\n {0}",Rets())
+        Console.WriteLine(chr(27)+"[42;30m\n {0}",Rets())
 
     End Sub
     

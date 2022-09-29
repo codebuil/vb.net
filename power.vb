@@ -5,7 +5,7 @@ Module Program
 
         'Displays Hello, World
         for n=0 to 16
-        Console.WriteLine("  \x1bc\x1b[42;30m\n {0}",power(2,n))
+        Console.WriteLine(chr(27)+"[42;30m\n {0}",power(2,n))
         Next
          
     End Sub
